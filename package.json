@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nvhoang99.github.io/reactjs/",
   "name": "e-commerce",
   "type": "module",
   "version": "0.1.0",
@@ -15,8 +14,6 @@
     "react-scripts": "^4.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,7 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0",
     "nodemon": "^2.0.7"
   }
 }
