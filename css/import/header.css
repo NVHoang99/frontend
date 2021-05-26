@@ -1,0 +1,50 @@
+/*HEADER*/
+#header-wp {
+    border-bottom: 1px solid #bdbdbd;
+}
+#logo {
+    display: block;
+    font-family: "Roboto Bold";
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #333;
+    padding: 20px 10px;
+}
+#btn-cart {
+    position: relative;
+    display: block;
+    padding: 20px 10px;
+}
+
+#btn-cart #num {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #b70000;
+    font-family: "Roboto Medium";
+}
+
+#btn-signin {
+    padding: 20px 0 20px 10px;
+    position: relative;
+}
+
+i.fa-caret-down {
+    margin-left: 5px;
+}
+
+.user-dropdown {
+    position: absolute;
+    display: none;
+    min-width: 10rem;
+    padding: 10px;
+    z-index: 1;
+    background-color: rgb(226, 233, 247);
+    border-radius: 5px;
+    right: 0;
+    margin-top: 10px;
+}
+
+#btn-signin:hover .user-dropdown {
+    display: block;
+}
